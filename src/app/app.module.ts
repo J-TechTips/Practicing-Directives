@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Directive } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { FontColorDirective } from './FontColor/FontColor.directive';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FontColorDirective
   ],
   imports: [
     BrowserModule
